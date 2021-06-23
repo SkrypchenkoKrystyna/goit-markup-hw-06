@@ -439,12 +439,42 @@
                 <b class="title-modal-form">Оставьте свои данные, мы вам перезвоним </b>
                 <label class="form-label used-transform" for="use-name">Имя</label>
                 <div class="form-box">
-                    <input type="text" class="form-input" name="user-name" id="user-name" placeholder="" required>
-                    <svg>
-                        <use></use>
+                    <input type="text" class="form-input" name="user-name" id="user-name" placeholder=" " required>
+                    <svg class="modal-icon-position" width="12" height="12">
+                        <use href="./images/icons/sprite1.svg#icon-person"></use>
                     </svg>
-
                 </div>
+
+                <label class="form-label used-transform" for="user-phone">Телефон</label>
+                <div class="form-box" width="14" height="14">
+                    <input type="tel" class="form-input" name="user-phone" id="user-phone" placeholder="">
+                    <svg class="modal-icon-position" width="14" height="14">
+                        <use href="./images/icons/sprite1.svg#icon-phone"></use>
+                    </svg>
+                </div>
+
+                <label class="form-label used-transform" for="user-email-modal">Почта</label>
+                <div class="form-box">
+                    <input type="email" class="form-input" name="user-email" id="user-email-modal" required="">
+                    <svg class="modal-icon-position" width="16" height="12">
+                        <use href="./images/icons/sprite1.svg#icon-email"></use>
+                    </svg>
+                </div>
+                <label class="form-label">Комментарий</label>
+                <textarea name="comment" class="textarea-form" placeholder="Введите текст"></textarea>
+
+                <div class="form-checkbox">
+                    <label class="secure">
+                        <input type="checkbox" class="checkbox" name="secure" required>
+                        <span class="checkbox-icon used-transform"></span>
+                        Соглашаюсь с рассылкой и принимаю
+                        <a href="#" class="secure-link">Услвия договора</a>
+                    </label>
+                </div>
+                <div class="modal-btn">
+                    <button type="submit" class="modal-form-btn used-transform">Отправить</button>
+                </div>
+
             </form>
         </div>
 
