@@ -319,7 +319,6 @@ a {
   line-height: 1.142;
   letter-spacing: 0.03em;
   color: var(--white-color);
-  /* text-align: center; */
 }
 
 /* What-are-we-doing */
@@ -415,39 +414,6 @@ a {
   fill: var(--white-color);
 }
 
-/* третий вариант НЕ ВаРиант */
-/* .social-link {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-}
-
-.social-link:hover {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-} */
-
-/* Второй вариант не подошел */
-
-/* .icon-hover:hover,
-.icon-hover:focus {
-  background-color: var(--accent-color);
-}
-
-.social-link:hover .social-icon-team,
-.social-link:focus .social-icon-team {
-  fill: var(--white-color);
-} */
-
-/* Первый вариант не подошел */
-
-/* .social-media-list li:hover {
-  background-color: var(--accent-color);
-}
-
-.social-icon-team:hover {
-  fill: var(--white-color);
-} */
-
 .sm-link-footer {
   color: inherit;
   background-color: rgba(255, 255, 255, 0.1);
@@ -525,7 +491,6 @@ a {
   background-color: var(--back-color);
 }
 .footer-section {
-  /* padding: 94px 0; */
   margin: 0 auto;
 }
 
@@ -538,7 +503,6 @@ a {
 }
 .logo-footer {
   display: inline-block;
-  /* margin-top: 60px; */
   margin-bottom: 20px;
   font-family: var(--accent-font);
   font-weight: 700;
@@ -549,7 +513,6 @@ a {
 
 .logo-footer-portfolio {
   display: inline-block;
-  /* margin-top: 60px; */
   margin-bottom: 20px;
   font-family: var(--accent-font);
   font-weight: 700;
@@ -589,6 +552,10 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-social-media-list {
+  margin-right: 93px;
+}
+
 .join {
   margin-bottom: 20px;
   font-size: 14px;
@@ -607,6 +574,55 @@ a {
 
 .sml-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.subscribe-title {
+  display: block;
+  margin-bottom: 20px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-input {
+  width: 358px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.footer-form-btn {
+  display: flex;
+  align-items: center;
+  padding: 10px 28px 10px 29px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-form-icon {
+  fill: var(--white-color);
+  margin-left: 10px;
 }
 
 /* contacts-footer */
@@ -751,18 +767,6 @@ a {
 .card-link:focus .tehnokriak {
   transform: translateY(-100%);
 }
-/* .tehnokriak {
-  font-family: var(--main-font);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.473;
-  letter-spacing: 0.03em;
-  opacity: 0;
-  position: absolute;
-  top: 25%;
-  left: 5%;
-  
-} */
 
 .card-item:hover {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -837,8 +841,8 @@ a {
   width: 528px;
   height: 581px;
   background-color: var(--white-color);
-  /* padding: 9px; */
 }
+
 .modal-button {
   position: absolute;
   right: 8px;
